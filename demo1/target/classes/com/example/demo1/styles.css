@@ -1,0 +1,9 @@
+/* styles.css */
+#mainBorderPane {
+    -fx-background-color: white;
+}
+
+#mainBorderPane #scene {
+    -fx-pref-width: 350px;
+    -fx-pref-height: 500px;
+}

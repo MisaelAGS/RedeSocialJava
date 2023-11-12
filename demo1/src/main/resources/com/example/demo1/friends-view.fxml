@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.FriendsController" alignment="CENTER">
+    <Label text="Lista de Amigos" style="-fx-font-size: 18px; -fx-font-weight: bold;" alignment="CENTER"/>
+    <ListView fx:id="friendsListView" />
+</VBox>
